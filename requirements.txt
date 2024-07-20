@@ -1,0 +1,9 @@
+pyautogui
+requests
+cloudscraper
+bs4
+colorlog
+aiocron
+psutil
+telethon==1.35.0
+js2py==0.74

@@ -1,0 +1,18 @@
+{
+    "from_id": 0,
+    "to_id": 5,
+    "accounts_in_one_tg_profile": 3,
+
+    "exe_path": "C:\\Users\\name\\blum",
+    "iterate_all_accs_times": 1,
+    "SLOWMODE": 1,
+
+    "play_account_id_from": "1_2",
+    "play_account_id_to": "3_0",
+    "do_tasks": true,
+    "play_games": true,
+    "MAX_GAME_WORKERS": 5,
+
+    "api_key": 0,
+    "api_hash": ""
+}
