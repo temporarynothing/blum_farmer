@@ -1,6 +1,6 @@
 ## Prerequisites
 
-- Python 3.10 or higher
+- Python 3.9 or higher
 Install python via conda or download from https://www.python.org/
 
 ## Installation
