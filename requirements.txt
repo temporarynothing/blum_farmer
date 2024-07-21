@@ -7,3 +7,4 @@ aiocron
 psutil
 telethon==1.35.0
 js2py==0.74
+numpy
