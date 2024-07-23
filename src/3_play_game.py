@@ -186,8 +186,11 @@ if __name__ == "__main__":
     s_group, s_acc = play_account_id_to.split("_")
 
     accounts = [f"{group}_{acc}" for group in range(int(f_group) + 1, int(s_group)) for acc in range(0, int(limit_group))]
-    accounts.extend(f"{f_group}_{acc}" for acc in range(int(f_acc), limit_group))
-    accounts.extend(f"{s_group}_{acc}" for acc in range(0, int(s_acc) + 1))
+    if f_group == s_group:
+        accounts.extend(f"{s_group}_{acc}" for acc in range(int(f_acc), int(s_acc) + 1))
+    else:
+        accounts.extend(f"{f_group}_{acc}" for acc in range(int(f_acc), limit_group))
+        accounts.extend(f"{s_group}_{acc}" for acc in range(0, int(s_acc) + 1))
 
     accounts_in_one_tg_profile = global_config.get("accounts_in_one_tg_profile")
 
